@@ -19,10 +19,13 @@ public class RewardsConverter {
     }
 
     private static class RewardValue {
+        private String milesValue;
+
         public RewardValue(double cashValue) {
         }
 
         public String getMilesValue() {
+            String milesValue = new String();
             return milesValue;
         }
 
